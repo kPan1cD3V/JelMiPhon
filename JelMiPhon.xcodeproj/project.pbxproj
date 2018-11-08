@@ -1,331 +1,338 @@
+// !$*UTF8*$!
 {
-    archiveVersion = 1;
-    classes =     (
-    );
-    objectVersion = 46;
-    objects =     {
-        12BTXIUAPXXKCU6QCSY4C4MA =         {
-            buildActionMask = 2147483647;
-            files =             (
-                12XFZEWDPKZC04Q3R6ZH1VW0,
-                55254CQWCVE77T6NAEN59M9F,
-                3AUKTWD68641AIBQBJ0QE3DB
-            );
-            isa = PBXSourcesBuildPhase;
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        12XFZEWDPKZC04Q3R6ZH1VW0 =         {
-            fileRef = P2E3YEC2SJ7PWZB49BRBOG4E;
-            isa = PBXBuildFile;
-        };
-        1M0EMGX2QGY5UHK3ZU2JDM0K =         {
-            fileRef = MYNQL38AJSPPOB5VCI1L497T;
-            isa = PBXBuildFile;
-        };
-        3ATORBRP9GYX6BQH0SL1MBEF =         {
-            fileRef = J4X3FZUTEG9LJ644VB5UL0J5;
-            isa = PBXBuildFile;
-        };
-        3AUKTWD68641AIBQBJ0QE3DB =         {
-            fileRef = X6V1YB41GNLXP99CRJ9PDQKN;
-            isa = PBXBuildFile;
-        };
-        3D0IWRU3KAVRFIP440CYR6JQ =         {
-            children =             (
-                5T0DF2EXA6XRMBHK9F12BXET
-            );
-            isa = PBXGroup;
-            name = Products;
-            sourceTree = "<group>";
-        };
-        3ETCSPLO6MZBE1YZOZUY3V5N =         {
-            buildSettings =             {
-                "ALWAYS_SEARCH_USER_PATHS" = NO;
-                "CLANG_CXX_LANGUAGE_STANDARD" = "gnu++0x";
-                "CLANG_CXX_LIBRARY" = "libc++";
-                "CLANG_ENABLE_MODULES" = YES;
-                "CLANG_ENABLE_OBJC_ARC" = YES;
-                "CLANG_WARN_BOOL_CONVERSION" = YES;
-                "CLANG_WARN_CONSTANT_CONVERSION" = YES;
-                "CLANG_WARN_DIRECT_OBJC_ISA_USAGE" = "YES_ERROR";
-                "CLANG_WARN_EMPTY_BODY" = YES;
-                "CLANG_WARN_ENUM_CONVERSION" = YES;
-                "CLANG_WARN_INT_CONVERSION" = YES;
-                "CLANG_WARN_OBJC_ROOT_CLASS" = "YES_ERROR";
-                "CLANG_WARN_UNREACHABLE_CODE" = YES;
-                "CLANG_WARN__DUPLICATE_METHOD_MATCH" = YES;
-                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-                "COPY_PHASE_STRIP" = NO;
-                "DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
-                "ENABLE_NS_ASSERTIONS" = NO;
-                "ENABLE_STRICT_OBJC_MSGSEND" = YES;
-                "GCC_C_LANGUAGE_STANDARD" = gnu99;
-                "GCC_NO_COMMON_BLOCKS" = YES;
-                "GCC_WARN_64_TO_32_BIT_CONVERSION" = YES;
-                "GCC_WARN_ABOUT_RETURN_TYPE" = "YES_ERROR";
-                "GCC_WARN_UNDECLARED_SELECTOR" = YES;
-                "GCC_WARN_UNINITIALIZED_AUTOS" = "YES_AGGRESSIVE";
-                "GCC_WARN_UNUSED_FUNCTION" = YES;
-                "GCC_WARN_UNUSED_VARIABLE" = YES;
-                "IPHONEOS_DEPLOYMENT_TARGET" = "7.0";
-                "MTL_ENABLE_DEBUG_INFO" = NO;
-                SDKROOT = iphoneos;
-                "TARGETED_DEVICE_FAMILY" = "1,2";
-                "VALIDATE_PRODUCT" = YES;
-            };
-            isa = XCBuildConfiguration;
-            name = Release;
-        };
-        4K2A4FH1NCJQL15HE2E34F74 =         {
-            fileRef = B6BWHE399L1GJO0DZRRXNU55;
-            isa = PBXBuildFile;
-        };
-        55254CQWCVE77T6NAEN59M9F =         {
-            fileRef = NIAUUAHEC62NURGB09XO88GG;
-            isa = PBXBuildFile;
-        };
-        5T0DF2EXA6XRMBHK9F12BXET =         {
-            explicitFileType = "wrapper.application";
-            includeInIndex = 0;
-            isa = PBXFileReference;
-            path = "JelMiPhon.app";
-            sourceTree = "BUILT_PRODUCTS_DIR";
-        };
-        B6BWHE399L1GJO0DZRRXNU55 =         {
-            isa = PBXFileReference;
-            path = "Images.xcassets";
-            sourceTree = "<group>";
-        };
-        EBUQBRLAZMXOZ1ZPVU3KJJDY =         {
-            buildSettings =             {
-                "ASSETCATALOG_COMPILER_APPICON_NAME" = AppIcon;
-                "INFOPLIST_FILE" = "JelMiPhon/Info.plist";
-                "LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
-                "PRODUCT_NAME" = "$(TARGET_NAME)";
-            };
-            isa = XCBuildConfiguration;
-            name = Release;
-        };
-        GC0HZANJKSWF8G8NN8Z4K48Q =         {
-            buildActionMask = 2147483647;
-            files =             (
-                3ATORBRP9GYX6BQH0SL1MBEF,
-                4K2A4FH1NCJQL15HE2E34F74,
-                1M0EMGX2QGY5UHK3ZU2JDM0K
-            );
-            isa = PBXResourcesBuildPhase;
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        IA97C3HONLD3LPLPTKLO0E1N =         {
-            children =             (
-            );
-            isa = PBXGroup;
-            name = Frameworks;
-            sourceTree = "<group>";
-        };
-        J4X3FZUTEG9LJ644VB5UL0J5 =         {
-            children =             (
-                PG32E4396U2IR7B7XCPXMPS2
-            );
-            isa = PBXVariantGroup;
-            name = "LaunchScreen.xib";
-            sourceTree = "<group>";
-        };
-        MLHMCVNQNELP5YF1D6MOD5H3 =         {
-            buildConfigurations =             (
-                T2DYQYVVWDMR8199QVEGPR87,
-                EBUQBRLAZMXOZ1ZPVU3KJJDY
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-            isa = XCConfigurationList;
-        };
-        MYNQL38AJSPPOB5VCI1L497T =         {
-            isa = PBXFileReference;
-            name = "Main.storyboard";
-            path = "Base.lproj/Main.storyboard";
-            sourceTree = "<group>";
-        };
-        NIAUUAHEC62NURGB09XO88GG =         {
-            isa = PBXFileReference;
-            path = "ViewController.m";
-            sourceTree = "<group>";
-        };
-        P0N6MCDYOJ8U9LMTJM4EDF01 =         {
-            buildSettings =             {
-                "ALWAYS_SEARCH_USER_PATHS" = NO;
-                "CLANG_CXX_LANGUAGE_STANDARD" = "gnu++0x";
-                "CLANG_CXX_LIBRARY" = "libc++";
-                "CLANG_ENABLE_MODULES" = YES;
-                "CLANG_ENABLE_OBJC_ARC" = YES;
-                "CLANG_WARN_BOOL_CONVERSION" = YES;
-                "CLANG_WARN_CONSTANT_CONVERSION" = YES;
-                "CLANG_WARN_DIRECT_OBJC_ISA_USAGE" = "YES_ERROR";
-                "CLANG_WARN_EMPTY_BODY" = YES;
-                "CLANG_WARN_ENUM_CONVERSION" = YES;
-                "CLANG_WARN_INT_CONVERSION" = YES;
-                "CLANG_WARN_OBJC_ROOT_CLASS" = "YES_ERROR";
-                "CLANG_WARN_UNREACHABLE_CODE" = YES;
-                "CLANG_WARN__DUPLICATE_METHOD_MATCH" = YES;
-                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-                "COPY_PHASE_STRIP" = NO;
-                "DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
-                "ENABLE_STRICT_OBJC_MSGSEND" = YES;
-                "GCC_C_LANGUAGE_STANDARD" = gnu99;
-                "GCC_DYNAMIC_NO_PIC" = NO;
-                "GCC_NO_COMMON_BLOCKS" = YES;
-                "GCC_OPTIMIZATION_LEVEL" = 0;
-                "GCC_PREPROCESSOR_DEFINITIONS" = "DEBUG=1 $(inherited)";
-                "GCC_SYMBOLS_PRIVATE_EXTERN" = NO;
-                "GCC_WARN_64_TO_32_BIT_CONVERSION" = YES;
-                "GCC_WARN_ABOUT_RETURN_TYPE" = "YES_ERROR";
-                "GCC_WARN_UNDECLARED_SELECTOR" = YES;
-                "GCC_WARN_UNINITIALIZED_AUTOS" = "YES_AGGRESSIVE";
-                "GCC_WARN_UNUSED_FUNCTION" = YES;
-                "GCC_WARN_UNUSED_VARIABLE" = YES;
-                "IPHONEOS_DEPLOYMENT_TARGET" = "7.0";
-                "MTL_ENABLE_DEBUG_INFO" = YES;
-                "ONLY_ACTIVE_ARCH" = YES;
-                SDKROOT = iphoneos;
-                "TARGETED_DEVICE_FAMILY" = "1,2";
-            };
-            isa = XCBuildConfiguration;
-            name = Debug;
-        };
-        P2E3YEC2SJ7PWZB49BRBOG4E =         {
-            isa = PBXFileReference;
-            path = "main.m";
-            sourceTree = "<group>";
-        };
-        PG32E4396U2IR7B7XCPXMPS2 =         {
-            isa = PBXFileReference;
-            name = en;
-            path = "Base.lproj/LaunchScreen.xib";
-            sourceTree = "<group>";
-        };
-        RE0PVFZ85EQAXP8CTZFQ1WH0 =         {
-            buildConfigurationList = MLHMCVNQNELP5YF1D6MOD5H3;
-            buildPhases =             (
-                12BTXIUAPXXKCU6QCSY4C4MA,
-                V65DWZXMNKFN0E7H2GK7QU9G,
-                GC0HZANJKSWF8G8NN8Z4K48Q
-            );
-            buildRules =             (
-            );
-            dependencies =             (
-            );
-            isa = PBXNativeTarget;
-            name = JelMiPhon;
-            productName = JelMiPhon;
-            productReference = 5T0DF2EXA6XRMBHK9F12BXET;
-            productType = "com.apple.product-type.application";
-        };
-        S7F74SVZEG351T4K1DMKLHTT =         {
-            isa = PBXFileReference;
-            path = "ViewController.h";
-            sourceTree = "<group>";
-        };
-        SCBVZAXSY3LCMPH1NYTOFGVS =         {
-            isa = PBXFileReference;
-            path = "AppDelegate.h";
-            sourceTree = "<group>";
-        };
-        SJ4F1WU32APQ34V7OZTPVTKU =         {
-            buildConfigurations =             (
-                P0N6MCDYOJ8U9LMTJM4EDF01,
-                3ETCSPLO6MZBE1YZOZUY3V5N
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-            isa = XCConfigurationList;
-        };
-        T2DYQYVVWDMR8199QVEGPR87 =         {
-            buildSettings =             {
-                "ASSETCATALOG_COMPILER_APPICON_NAME" = AppIcon;
-                "INFOPLIST_FILE" = "JelMiPhon/Info.plist";
-                "LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
-                "PRODUCT_NAME" = "$(TARGET_NAME)";
-            };
-            isa = XCBuildConfiguration;
-            name = Debug;
-        };
-        TLUKKMMPDBAY6D5O6UB1SMA4 =         {
-            attributes =             {
-                BUNDLEIDENTIFIER = "com.heyits0n1c.jelmiphon";
-                BUNDLEIDENTIFIERPREFIX = "com.heyits0n1c";
-                LANGUAGECHOICE = "Objective-C";
-                ORGANIZATIONNAME = HeyIts0n1c;
-                PRODUCTNAME = JelMiPhon;
-                UNIVERSALDEVICEFAMILY = Universal;
-                USERNAME = HeyIts0n1c;
-            };
-            buildConfigurationList = SJ4F1WU32APQ34V7OZTPVTKU;
-            compatibilityVersion = "Xcode 3.2";
-            developmentRegion = English;
-            hasScannedForEncodings = 0;
-            isa = PBXProject;
-            knownRegions =             (
-                en
-            );
-            mainGroup = Z6W6239LAVTVFS9HLI21B1OI;
-            productRefGroup = 3D0IWRU3KAVRFIP440CYR6JQ;
-            projectDirPath = "";
-            projectRoot = "";
-            targets =             (
-                RE0PVFZ85EQAXP8CTZFQ1WH0
-            );
-        };
-        UGEKFG9WOOH5B009EO3SEHL7 =         {
-            children =             (
-                P2E3YEC2SJ7PWZB49BRBOG4E,
-                YTK0IO94SBQFUYBJVJAJX73U
-            );
-            isa = PBXGroup;
-            name = "Supporting Files";
-            sourceTree = "<group>";
-        };
-        V65DWZXMNKFN0E7H2GK7QU9G =         {
-            buildActionMask = 2147483647;
-            files =             (
-            );
-            isa = PBXFrameworksBuildPhase;
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        X6V1YB41GNLXP99CRJ9PDQKN =         {
-            isa = PBXFileReference;
-            path = "AppDelegate.m";
-            sourceTree = "<group>";
-        };
-        YRLLLF2GE9I27FRSI86XDUZH =         {
-            children =             (
-                J4X3FZUTEG9LJ644VB5UL0J5,
-                S7F74SVZEG351T4K1DMKLHTT,
-                B6BWHE399L1GJO0DZRRXNU55,
-                SCBVZAXSY3LCMPH1NYTOFGVS,
-                NIAUUAHEC62NURGB09XO88GG,
-                X6V1YB41GNLXP99CRJ9PDQKN,
-                MYNQL38AJSPPOB5VCI1L497T,
-                UGEKFG9WOOH5B009EO3SEHL7
-            );
-            isa = PBXGroup;
-            name = JelMiPhon;
-            path = JelMiPhon;
-            sourceTree = "<group>";
-        };
-        YTK0IO94SBQFUYBJVJAJX73U =         {
-            isa = PBXFileReference;
-            path = "Info.plist";
-            sourceTree = "<group>";
-        };
-        Z6W6239LAVTVFS9HLI21B1OI =         {
-            children =             (
-                YRLLLF2GE9I27FRSI86XDUZH,
-                IA97C3HONLD3LPLPTKLO0E1N,
-                3D0IWRU3KAVRFIP440CYR6JQ
-            );
-            isa = PBXGroup;
-            sourceTree = "<group>";
-        };
-    };
-    rootObject = TLUKKMMPDBAY6D5O6UB1SMA4;
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12XFZEWDPKZC04Q3R6ZH1VW0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = P2E3YEC2SJ7PWZB49BRBOG4E /* main.m */; };
+		1M0EMGX2QGY5UHK3ZU2JDM0K /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = MYNQL38AJSPPOB5VCI1L497T /* Main.storyboard */; };
+		3ATORBRP9GYX6BQH0SL1MBEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = J4X3FZUTEG9LJ644VB5UL0J5 /* LaunchScreen.xib */; };
+		3AUKTWD68641AIBQBJ0QE3DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = X6V1YB41GNLXP99CRJ9PDQKN /* AppDelegate.m */; };
+		4K2A4FH1NCJQL15HE2E34F74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BWHE399L1GJO0DZRRXNU55 /* Images.xcassets */; };
+		55254CQWCVE77T6NAEN59M9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = NIAUUAHEC62NURGB09XO88GG /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5T0DF2EXA6XRMBHK9F12BXET /* JelMiPhon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JelMiPhon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BWHE399L1GJO0DZRRXNU55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		MYNQL38AJSPPOB5VCI1L497T /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		NIAUUAHEC62NURGB09XO88GG /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		P2E3YEC2SJ7PWZB49BRBOG4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		PG32E4396U2IR7B7XCPXMPS2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		S7F74SVZEG351T4K1DMKLHTT /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		SCBVZAXSY3LCMPH1NYTOFGVS /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		X6V1YB41GNLXP99CRJ9PDQKN /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		YTK0IO94SBQFUYBJVJAJX73U /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		V65DWZXMNKFN0E7H2GK7QU9G /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0IWRU3KAVRFIP440CYR6JQ /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5T0DF2EXA6XRMBHK9F12BXET /* JelMiPhon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		IA97C3HONLD3LPLPTKLO0E1N /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		UGEKFG9WOOH5B009EO3SEHL7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				P2E3YEC2SJ7PWZB49BRBOG4E /* main.m */,
+				YTK0IO94SBQFUYBJVJAJX73U /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		YRLLLF2GE9I27FRSI86XDUZH /* JelMiPhon */ = {
+			isa = PBXGroup;
+			children = (
+				J4X3FZUTEG9LJ644VB5UL0J5 /* LaunchScreen.xib */,
+				S7F74SVZEG351T4K1DMKLHTT /* ViewController.h */,
+				B6BWHE399L1GJO0DZRRXNU55 /* Images.xcassets */,
+				SCBVZAXSY3LCMPH1NYTOFGVS /* AppDelegate.h */,
+				NIAUUAHEC62NURGB09XO88GG /* ViewController.m */,
+				X6V1YB41GNLXP99CRJ9PDQKN /* AppDelegate.m */,
+				MYNQL38AJSPPOB5VCI1L497T /* Main.storyboard */,
+				UGEKFG9WOOH5B009EO3SEHL7 /* Supporting Files */,
+			);
+			path = JelMiPhon;
+			sourceTree = "<group>";
+		};
+		Z6W6239LAVTVFS9HLI21B1OI = {
+			isa = PBXGroup;
+			children = (
+				YRLLLF2GE9I27FRSI86XDUZH /* JelMiPhon */,
+				IA97C3HONLD3LPLPTKLO0E1N /* Frameworks */,
+				3D0IWRU3KAVRFIP440CYR6JQ /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		RE0PVFZ85EQAXP8CTZFQ1WH0 /* JelMiPhon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = MLHMCVNQNELP5YF1D6MOD5H3 /* Build configuration list for PBXNativeTarget "JelMiPhon" */;
+			buildPhases = (
+				12BTXIUAPXXKCU6QCSY4C4MA /* Sources */,
+				V65DWZXMNKFN0E7H2GK7QU9G /* Frameworks */,
+				GC0HZANJKSWF8G8NN8Z4K48Q /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JelMiPhon;
+			productName = JelMiPhon;
+			productReference = 5T0DF2EXA6XRMBHK9F12BXET /* JelMiPhon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		TLUKKMMPDBAY6D5O6UB1SMA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BUNDLEIDENTIFIER = com.heyits0n1c.jelmiphon;
+				BUNDLEIDENTIFIERPREFIX = com.heyits0n1c;
+				LANGUAGECHOICE = "Objective-C";
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = HeyIts0n1c;
+				PRODUCTNAME = JelMiPhon;
+				UNIVERSALDEVICEFAMILY = Universal;
+				USERNAME = HeyIts0n1c;
+			};
+			buildConfigurationList = SJ4F1WU32APQ34V7OZTPVTKU /* Build configuration list for PBXProject "JelMiPhon" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = Z6W6239LAVTVFS9HLI21B1OI;
+			productRefGroup = 3D0IWRU3KAVRFIP440CYR6JQ /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				RE0PVFZ85EQAXP8CTZFQ1WH0 /* JelMiPhon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		GC0HZANJKSWF8G8NN8Z4K48Q /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ATORBRP9GYX6BQH0SL1MBEF /* LaunchScreen.xib in Resources */,
+				4K2A4FH1NCJQL15HE2E34F74 /* Images.xcassets in Resources */,
+				1M0EMGX2QGY5UHK3ZU2JDM0K /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12BTXIUAPXXKCU6QCSY4C4MA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12XFZEWDPKZC04Q3R6ZH1VW0 /* main.m in Sources */,
+				55254CQWCVE77T6NAEN59M9F /* ViewController.m in Sources */,
+				3AUKTWD68641AIBQBJ0QE3DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		J4X3FZUTEG9LJ644VB5UL0J5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				PG32E4396U2IR7B7XCPXMPS2 /* en */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ETCSPLO6MZBE1YZOZUY3V5N /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBUQBRLAZMXOZ1ZPVU3KJJDY /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HEQUL5NY26;
+				INFOPLIST_FILE = JelMiPhon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heyits0n1c.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		P0N6MCDYOJ8U9LMTJM4EDF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		T2DYQYVVWDMR8199QVEGPR87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HEQUL5NY26;
+				INFOPLIST_FILE = JelMiPhon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heyits0n1c.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		MLHMCVNQNELP5YF1D6MOD5H3 /* Build configuration list for PBXNativeTarget "JelMiPhon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				T2DYQYVVWDMR8199QVEGPR87 /* Debug */,
+				EBUQBRLAZMXOZ1ZPVU3KJJDY /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		SJ4F1WU32APQ34V7OZTPVTKU /* Build configuration list for PBXProject "JelMiPhon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				P0N6MCDYOJ8U9LMTJM4EDF01 /* Debug */,
+				3ETCSPLO6MZBE1YZOZUY3V5N /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = TLUKKMMPDBAY6D5O6UB1SMA4 /* Project object */;
 }
